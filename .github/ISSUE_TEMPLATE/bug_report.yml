@@ -1,0 +1,48 @@
+name: Bug report
+description: Something crashed, hung, or behaved differently from the documentation.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For a suspected security vulnerability, do not use this form. See the security policy.
+  - type: textarea
+    id: ran
+    attributes:
+      label: What did you run?
+      description: The exact command line.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened?
+      description: Output, error messages, exit code.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Output of `bomwerk --version`.
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      description: Operating system and architecture.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Repository or file that reproduces it
+      description: A link, or a description of its shape if it cannot be shared.

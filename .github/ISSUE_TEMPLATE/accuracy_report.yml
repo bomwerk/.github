@@ -1,0 +1,48 @@
+name: Accuracy report
+description: A missed component, a wrong version, or an advisory that did not match.
+labels: ["accuracy"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Accuracy reports are as welcome as crashes. They are how the scanner gets better.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What was wrong?
+      options:
+        - A component was missed
+        - A component has the wrong name or version
+        - A component was reported that is not in the build
+        - A vulnerability advisory did not match
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: component
+    attributes:
+      label: Component
+      description: Name and version, or the package URL, that you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: How do you know?
+      description: Where the component comes from in your repository or build, for example a manifest, a vendored directory or a linked library.
+    validations:
+      required: true
+  - type: textarea
+    id: ran
+    attributes:
+      label: What did you run?
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Output of `bomwerk --version`.
+    validations:
+      required: true
