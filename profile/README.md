@@ -6,6 +6,10 @@ bomwerk is a command-line scanner for teams that ship software into the EU and h
 
 It runs entirely on your machine. There is no account, no server and no telemetry, and your source is never uploaded.
 
+[![bomwerk 1.0.0-rc.2 in about a minute: scan, observe and trim, and the Pro Article 14 draft, run against the nightmare corpus](https://raw.githubusercontent.com/bomwerk/bomwerk/main/docs/assets/demo-1.0.0-rc.2.jpg)](https://youtu.be/_T6Wko0zadw)
+
+*Watch: `1.0.0-rc.2` in about a minute, recorded from a source build of the tag. Advisory data as of 2026-10-23.*
+
 ## Community and Pro
 
 - **Community** is Apache-2.0, unlimited and free. It is the whole scanner: `scan`, `observe`, `trim` and `binscan`. It lives in [bomwerk/bomwerk](https://github.com/bomwerk/bomwerk).
@@ -43,3 +47,4 @@ What works today, what is planned, and the test behind each claim are listed in 
 - General questions: [hello@bomwerk.com](mailto:hello@bomwerk.com)
 - Security reports: see our [security policy](https://github.com/bomwerk/.github/blob/main/SECURITY.md)
 - LinkedIn: [bomwerk](https://www.linkedin.com/company/bomwerk/)
+- YouTube: [@bomwerk](https://www.youtube.com/@bomwerk)
