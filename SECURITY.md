@@ -6,7 +6,7 @@ This is the default policy for repositories in the bomwerk organisation. A repos
 
 Report privately through **GitHub's private vulnerability reporting** on the repository concerned: the *Security* tab, then *Report a vulnerability*. Please do not open a public issue for a suspected vulnerability.
 
-If the repository does not offer that form, or you cannot use it, write to **info@bomwerk.com** and say up front that the message concerns a vulnerability. Use hello@bomwerk.com for everything else.
+If the repository does not offer that form, or you cannot use it, write to **hello@bomwerk.com** and say up front, in the subject, that the message concerns a vulnerability.
 
 Useful in a report: what you ran, what happened, what you expected, the version (`bomwerk --version`) and the platform. A repository or file that reproduces the behaviour is the fastest path to a fix. If it cannot be shared, a description of its shape usually gets us there too.
 
